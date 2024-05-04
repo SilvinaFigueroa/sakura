@@ -1,26 +1,25 @@
 
-.cards-container{
-    /* display: flex;  Bootstrap cards deck works 
-    https://getbootstrap.com/docs/4.4/components/card/#card-decks*/
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 20px;
-
+/* Adding css for jumbotron for Bootstrap 5.3 */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    text-align: center;
+    
 }
 
+.card-stack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
 
-@media only screen and (max-width: 990px) {
-    .cards-container{
-        column-count: 2;
-
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .cards-container{
-        column-count: 1;
-
-    }
-  }
-
-  
+.card{
+    background-color: rgb(255, 246, 247);
+    border: none;
+    border-radius: 50px;
+}
