@@ -23,3 +23,24 @@
     border: none;
     border-radius: 50px;
 }
+
+.home-table th, .home-table td {
+    border: none; 
+    padding: 4px;
+}
+
+
+.home-table {
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid rgb(229, 136, 214);
+    border-collapse: separate;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-table{
+        width: 80%;
+    }
+}
