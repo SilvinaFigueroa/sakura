@@ -3,11 +3,15 @@
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem ;
-    background-color: #e9ecef;
+    background-image: url(../Images/hero-banner-sakura.webp);
     border-radius: .3rem;
-    text-align: center;
-    
+    text-align: center;    
 }
+
+.jumbotron h1 {
+    margin-top: 12%;
+}
+
 
 .card-stack{
     display: flex;
@@ -75,7 +79,7 @@
 
 
 section{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 h2{
@@ -126,12 +130,28 @@ h2{
 }
 
 .map iframe{
-    left:0;
-    top:0;
-    height:60%;
-    width:50%;
-    position:absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
+.footer-container {
+    display: flex;
+    background-color:rgb(254, 228, 254);
+    justify-content: space-evenly;
+    align-items: center;    
+    padding: 10px 20px;  
+}
+
+#footer-text{
+    padding: 20px;
+    align-items: center;            
+    justify-content: center;
+    text-align: center;
+}
+
 
 .btn-primary{
     background-color: rgb(231, 66, 94);
@@ -168,6 +188,9 @@ h2{
         margin: 2% auto;
     }
 
-
+    .navbar-nav .nav-item {
+        text-align: right; 
+        padding-right: 15px;
+    }
 
 }
