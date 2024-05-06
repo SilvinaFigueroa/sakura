@@ -12,3 +12,6 @@ This website is dedicated to showcasing the beautiful cherry blossoms in Japan
 ## Technical Specifications
 - **Frontend:** HTML5, CSS3 (using Flexbox and Grid for layout), JavaScript 
 - **Colors:** Uses a palette inspired by cherry blossoms, primarily shades of pink and white
+
+## Hosted Website
+- [Sakura](https://silvinafigueroa.github.io/sakura/) - Visit  hosted website.
