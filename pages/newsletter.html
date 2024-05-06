@@ -7,8 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
+    <style>
+    
+    </style>
 
-    <title>Sakura</title>
+    <title>Newsletter</title>
 </head>
 
 <body>
@@ -19,7 +22,8 @@
     </nav>
     <!-- navbar logo + with menu and mobile toggle-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html"><img src="../Images/sakura-logo.png" height="50px" alt="sakura-logo">
+        <a class="navbar-brand" href="../index.html"><img src="../Images/sakura-logo.png" height="50px"
+                alt="sakura-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
             aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,55 +43,85 @@
                     <a class="nav-link" href="./newsletter.html">Newsletter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.japan.travel/en/au/experience/cherry-blossoms/" target="_blank">Japan Travel</a>
+                    <a class="nav-link" href="https://www.japan.travel/en/au/experience/cherry-blossoms/"
+                        target="_blank">Japan Travel</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section>
-        <!-- hero section -->
-        <div class="jumbotron">
-            <h1 class="display-4">Explore the Enchantment of Sakura in Tokyo</h1>
-            <p class="lead">Discover the breathtaking beauty of cherry blossoms in one of the world's most vibrant
-                cities. Join us as we celebrate the arrival of spring with a guide to Tokyo's best sakura spots</p>
-            <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
-    </section>
+        <section>
+            <!-- hero section -->
+            <div class="jumbotron" id="hero-news"> 
+                <h1 class="display-4" style="margin-top: 5%;">Stay Blooming with Our Cherry Blossom Updates</h1>
+                <p class="lead">Join us as we celebrate the arrival of spring with a guide to Tokyo's best sakura spots</p>
+                <hr class="my-4">
+            </div>
+        </section>
+
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Don’t miss out on the latest blossoms! </h4>
+        <p>Subscribe to our newsletter and stay updated with the most enchanting
+            cherry blossom spots, exclusive travel tips, and seasonal stories straight from Japan. Be part of our
+            community that celebrates the beauty of Sakura every year.</p>
+    </div>
 
     <section>
-        <!-- middle section - cards -->
-        <h2>Cherry Blossom Highlights</h2>
-        <div class="card-stack">
+        <!-- ----Newsletter Section----- -->
+        <div class="newsletter">
             <div class="row row-cols-1 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card">
+                        <img src="../Images/tokio-carousel.webp" class="card-img-top" alt="newsletter-tokio">
                         <div class="card-body">
-                            <h5 class="card-title">Ueno Park</h5>
-                            <p class="card-text">Experience the festive atmosphere at Ueno Park, where thousands of
-                                people gather to enjoy the pink canopy of cherry blossoms. Ideal for picnics and boat
-                                rides, it's a must-visit during sakura season.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Chidorigafuchi</h5>
-                            <p class="card-text">Rent a boat and paddle through serene waters lined with cherry trees.
-                                Chidorigafuchi is a romantic spot, perfect for couples and tranquil photo opportunities.
-                            </p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <hr>
+                            <p>Posted on March-24</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
+                        <img src="../Images/kioto-carousel.webp" class="card-img-top" alt="newsletter-kioto">
                         <div class="card-body">
-                            <h5 class="card-title">Shinjuku Gyoen</h5>
-                            <p class="card-text">Explore one of Tokyo’s largest and most popular parks to see a mix of
-                                late and early-blooming cherry trees. Shinjuku Gyoen offers spacious lawns and
-                                picturesque scenery.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <hr>
+                            <p>Posted on March-24</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../Images/sapporo-carousel.webp" class="card-img-top" alt="newsletter-sapporo">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <hr>
+                            <p>Posted on March-24</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../Images/osaka-carousel.webp" class="card-img-top" alt="newsletter-osaka">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <hr>
+                            <p>Posted on March-24</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../Images/sendai-carousel.webp" class="card-img-top" alt="newsletter-sendai">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <hr>
+                            <p>Posted on March-24</p>
                         </div>
                     </div>
                 </div>
@@ -96,184 +130,61 @@
     </section>
 
     <section>
-        <!-- Table section -->
-        <h2>Hanami Calendar</h2>
-        <div class="table-responsive">
-            <table class="table home-table table-borderless table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col"><img src="../Images/calendar-sakura.png" alt="sakura logo" style="height: 40px;">
-                        </th>
-                        <th scope="col">City</th>
-                        <th scope="col">Full Bloom</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row"><img src="../Images/sakura-2.png" style="height: 20px;"></th>
-                        <td>Tokyo</td>
-                        <td>April 1st</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><img src="../Images/sakura-1.png" style="height: 20px;"></th>
-                        <td>Kyoto</td>
-                        <td>April 3rd</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><img src="../Images/sakura-3.png" style="height: 20px;"></th>
-                        <td>Osaka</td>
-                        <td>April 3rd</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><img src="../Images/sakura-4.png" style="height: 20px;"></th>
-                        <td>Sendai</td>
-                        <td>April 7th</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><img src="../Images/sakura-5.png" style="height: 20px;"></th>
-                        <td>Sapporo</td>
-                        <td>April 30th</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3" style="text-align: center;">Made with love by SFigueroa</td>
-                    </tr>
-                </tfoot>
-            </table>
-            <div>
-                <img id="sakura-gif" src="https://media1.tenor.com/m/c8TxyZVr3nQAAAAC/sakura-spring.gif"
-                    alt="sakura-gif">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <!-- carousel section -->
-        <div id="slider-caption" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#slider-caption" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#slider-caption" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#slider-caption" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#slider-caption" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#slider-caption" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/tokio-carousel.webp" class="img-fluid col-8" alt="tokio-sakura">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Tokio</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/kioto-carousel.webp" class="img-fluid col-8" alt="kioto-sakura">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Kioto</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/osaka-carousel.webp" class="img-fluid col-8" alt="osaka-sakura">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Osaka</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/sendai-carousel.webp" class="img-fluid col-8" alt="sendai-sakura">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Sendai</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="../Images/sapporo-carousel.webp" class="img-fluid col-8" alt="sapporo-sakura">
-                    </div>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Sapporo</h5>
-                    </div>
-                </div>
-            </div>
-            <!-- carousel buttons -->
-            <div class="carousel-button">
-                <button class="carousel-control-prev" type="button" data-bs-target="#slider-caption"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#slider-caption"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <!-- contact us -->
-        <h2>Leave us a message</h2>
+        <!-- Newsletter Subscription Form -->
+        <h2>Subscribe to Our Newsletter</h2>
         <div class="container-form">
-            <div class="contact-form">
+            <div class="newsletter-form">
                 <form class="row g-3">
-
                     <div class="col-md-6">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
+                        <label for="newsletterName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="newsletterName">
                     </div>
-
                     <div class="col-md-6">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="">
+                        <label for="newsletterEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="newsletterEmail">
                     </div>
-
                     <div class="col-md-6">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone">
-                    </div>
-
-                    <div class="col-md-6">
-                        <label for="sakura-city" class="form-label">Where do you want to go?</label>
-                        <select id="sakura-city" class="form-select">
-                            <option selected>Tokio</option>
-                            <option selected>Kyoto</option>
-                            <option selected>Osaka</option>
-                            <option selected>Sendai</option>
-                            <option selected>Sapporo</option>
+                        <label for="interest" class="form-label">Interest</label>
+                        <select id="interest" class="form-select">
+                            <option selected>Choose...</option>
+                            <option value="Cherry Blossoms">Cherry Blossoms</option>
+                            <option value="Cultural Sites">Cultural Sites</option>
+                            <option value="Culinary Experiences">Culinary Experiences</option>
                         </select>
                     </div>
-
-                    <div class="col-md-12">
-                        <textarea class="form-control" id="message" rows="4"></textarea>
-                        <label class="form-label" for="message">Message</label>
+                    <div class="col-md-6">
+                        <label for="visitMonth" class="form-label">Planned Visit Month</label>
+                        <select id="visitMonth" class="form-select">
+                            <option selected>Choose...</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
                     </div>
-
-
                     <div class="col-12">
                         <div class="form-check">
-                            <input class="opt-in" type="checkbox" id="opt-in">
-                            <label class="form-check-label" for="opt-in">
-                                Agree to receive
+                            <input class="form-check-input" type="radio" id="newsletterOptIn">
+                            <label class="form-check-label" for="newsletterOptIn">
+                                Agree to receive updates
                             </label>
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
-
     <!-- ---footer---- -->
     <footer>
         <div class="footer-container">
