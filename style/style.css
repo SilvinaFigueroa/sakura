@@ -15,11 +15,11 @@
 
 .card-stack{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     margin: auto;
     width: 60%;
+    align-items: center;
+
 }
 
 .card{
@@ -30,7 +30,6 @@
     transition-duration: 4s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
-
 }
 
 .card:hover{
@@ -88,7 +87,6 @@ h2{
     margin-bottom: 2%;
 }
 
-
 /* improving caption readability */
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); 
@@ -114,26 +112,31 @@ h2{
     border-radius: 90px;
 }
 
-
 .container-form{
     display: flex;
     width: 100%;    
     justify-content: center;
 }
 
+.map-container{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
 
 .map{
+    width: 100%;
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+    height: 0;
 }
 
 .map iframe{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    margin: auto;
+    width:100%;
     height: 100%;
 }
 
@@ -158,9 +161,25 @@ h2{
     border: #e9ecef;
 }
 
+#cat-animation{
+    transition-duration: 2s;
+    padding-left: 5%;
+}
+
+#cat-animation:hover{
+    transform: translate(200px);
+}  
+
+.animation-explore{
+    display: flex;
+    margin: auto;
+    width:100%;
+    justify-content: space-around;    
+}
+
 /* ___________Responsiviness_________________ */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 890px) {
 
     .table-responsive {
         flex-direction: column;
@@ -180,17 +199,22 @@ h2{
         display: flex;
         flex-direction: column;
         width: 90%;
-        justify-items: center;
+        justify-content: center;
     }
     
     .contact-form{
-        width: 90%;
+        width: 80%;
         margin: 2% auto;
     }
 
     .navbar-nav .nav-item {
         text-align: right; 
         padding-right: 15px;
+    }
+
+    .jumbotron {
+        background-image: url(../Images/hero-mobile.webp);
+        background-size: cover;
     }
 
 }
