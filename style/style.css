@@ -45,6 +45,13 @@
     justify-content: center;
 }
 
+.home-table thead th {
+    height: 60px; 
+    vertical-align: middle; 
+    background-color: rgb(255, 247, 252);  
+    padding: 10px 15px; 
+}
+
 .home-table {
     width: 40%;
     border: 1px solid rgb(229, 136, 214);
@@ -68,7 +75,7 @@
 
 
 section{
-    margin-bottom: 2rem;
+    margin-bottom: 10%;
 }
 
 h2{
@@ -76,6 +83,62 @@ h2{
     text-align: center;
     margin-bottom: 2%;
 }
+
+
+/* improving caption readability */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 25px; 
+}
+
+.carousel-inner img{
+    border-radius: 25px;
+}
+
+/* carousel arrows beside image */
+.carousel-control-prev {
+    left: calc(10% - 30px); 
+}    
+.carousel-control-next {
+    right: calc(10% - 30px); 
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgb(219, 56, 192);
+    border-radius: 90px;
+}
+
+
+.container-form{
+    display: flex;
+    width: 100%;    
+    justify-content: center;
+}
+
+
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:50%;
+    position:absolute;
+}
+
+.btn-primary{
+    background-color: rgb(231, 66, 94);
+    border: #e9ecef;
+}
+
+/* ___________Responsiviness_________________ */
 
 @media only screen and (max-width: 600px) {
 
@@ -91,7 +154,20 @@ h2{
     }
     #sakura-gif {
         display: none;
-
     }
+
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-items: center;
+    }
+    
+    .contact-form{
+        width: 90%;
+        margin: 2% auto;
+    }
+
+
 
 }
